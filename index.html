@@ -6,29 +6,39 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <title>Frontend Mentor | Expenses chart component</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
   <div class="card">
     <div class="card-header">
-      <div>
-        <p>My balance</p>
-        <p>$921.48</p>
+      <div class="container card-header-content">
+        <div>
+          <p>My balance</p>
+          <p class="total-balance">$921.48</p>
+        </div>
+        <img src="images/logo.svg" alt="">
       </div>
-      <img src="images/logo.svg" alt="">
     </div>
 
     <div class="card-body">
-      <h1>Spending - Last 7 days</h1>
-      <canvas></canvas>
-      <div>
+      <div class="container">
+        <h1>Spending - Last 7 days</h1>
+        <canvas></canvas>
         <div>
-          <p>Total this month</p>
-          <p>$478.33</p>
-        </div>
-        <div>
-          <p>+2.4%</p>
-          <p>from last month</p>
+          <p class="color-grey">Total this month</p>
+          <div class="flex">
+            <p class="month-balance">$478.33</p>
+            <div>
+              <p class="pourcentage">+2.4%</p>
+              <p class="color-grey">from last month</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
