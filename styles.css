@@ -102,6 +102,11 @@ h1 {
     color: var(--clr-neutral-500);
 }
 
+hr {
+    /* color: var(--clr-neutral-300); */
+    margin-block: .6rem;
+}
+
 .flex {
     display: flex;
     justify-content: space-between;
