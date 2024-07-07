@@ -24,13 +24,30 @@ function createChart(data) {
           topRight: 4,
           bottomLeft: 4,
           bottomRight: 4
-        }
+        },
+        hoverBackgroundColor: 'hsl(186, 34%, 60%)'
       }]
     },
     options: {
       plugins: {
         legend: {
           display: false
+        },
+        tooltip: {
+          enabled: true,
+          callbacks: {
+            title: () => {
+              return null
+            }
+          },
+          backgroundColor: 'hsl(25, 47%, 15%)',
+          padding: 8,
+          bodyFont: {
+            weight: '700',
+            size: 13
+          },
+          yAlign: 'top',
+          xAlign: 'center'
         }
       },
       scales: {
