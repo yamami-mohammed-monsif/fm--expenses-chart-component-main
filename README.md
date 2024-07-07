@@ -16,7 +16,7 @@ This is a solution to the [Expenses chart component challenge on Frontend Mentor
 
 ## Demo
 
-
+https://yamami-mohammed-monsif.github.io/fm--expenses-chart-component-main/
 
 ## Description
 
@@ -38,7 +38,13 @@ This is a solution to the [Expenses chart component challenge on Frontend Mentor
 
 ## Installation
 
+- **Clone the repository:**
+   ```bash
+   git clone https://github.com/yamami-mohammed-monsif/fm--expenses-chart-component-main.git
 
+   cd fm--expenses-chart-component-main.git
+
+   open index.html
 
 ## Usage
 
